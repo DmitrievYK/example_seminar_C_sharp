@@ -7,6 +7,7 @@ string input = Console.ReadLine();
 int N_start = Convert.ToInt32(input);
 int N_stop = - N_start;
 Console.WriteLine(N_stop);
+
 while (N_stop < N_start)
     {
         N_stop = N_stop + 1;

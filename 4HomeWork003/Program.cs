@@ -23,4 +23,4 @@ double DiffMaxMinNum(double[] array)
     double result = Math.Round(maxNum - minNum, 2);
     return result;
 }
-Console.WriteLine($"Разница между макс и мин элементами массива -> {DiffMaxMinNum(array)}");
+Console.WriteLine($"Разница между макс и мин элементами массива -> {DiffMaxMinNum(array)}");// test new vscode and gits

@@ -11,8 +11,7 @@ double[] FillArray(double[] array)
     {
         array[i] = Math.Round(rand.Next(0, 100) + rand.NextDouble(), 2);
     }
-    Console.Write("[" + String.Join(", ", array) + "]");
-    Console.WriteLine();
+    Console.WriteLine("[" + String.Join(", ", array) + "]");
     return array;
 }
 FillArray(array);

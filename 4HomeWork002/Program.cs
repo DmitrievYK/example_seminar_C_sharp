@@ -11,8 +11,7 @@ int[] FillArray(int[] array)
     {
         array[i] = new Random().Next(-100, 100);
     }
-    Console.Write("[" + String.Join(", ", array) + "]");
-    Console.WriteLine();
+    Console.WriteLine("[" + String.Join(", ", array) + "]");
     return array;
 }
 FillArray(array);

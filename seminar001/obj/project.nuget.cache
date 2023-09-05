@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "m2SfIG4bGi+6y1fRrasbZbkf3TFf+DW7MRMZminnuEq3u9AEZf9OLnJy5o4bteuVW4A+YyANVTnfpiFxZgA2Sw==",
+  "dgSpecHash": "93OxiBL09JteWL2wYh/A4LxBdFLOCV1I79eD+3NkTyQ3C2gz/zHpvM2HzDGHx7ixaCMItpa4pABNjdZf1ci5WA==",
   "success": true,
-  "projectFilePath": "D:\\1\\Example_C#\\seminar001\\seminar001.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "c:\\1\\Example_C#\\seminar001\\seminar001.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yura\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\Yura\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\Yura\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\Yura\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.21\\microsoft.netcore.app.host.win-x64.6.0.21.nupkg.sha512"
+  ],
   "logs": []
 }

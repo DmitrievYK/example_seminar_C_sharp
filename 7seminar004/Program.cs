@@ -49,4 +49,4 @@ int SumIndexArray(int[,] array)
 int[,] array = AddArray();
 FillArray(array);
 System.Console.WriteLine();
-Console.WriteLine(SumIndexArray(array));
+Console.WriteLine("Сумма элементов главной диагонали: " + SumIndexArray(array));

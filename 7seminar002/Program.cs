@@ -6,10 +6,12 @@
 // 1 2 3 4
 // 2 3 4 5
 
-int[] AddArray(int[] array)
+int[,] AddArray()
 {
     Console.WriteLine("Введите длину массива ");
-    int LengthArray = int
+    int lengthArray = int.Parse(Console.ReadLine());
+    int getArray = int.Parse(Console.ReadLine());
+    int[,] array = new int[lengthArray, getArray];
     return array;
 }
 
@@ -26,6 +28,6 @@ void FillArray(int[,] array)
     }
 }
 
-int[,] array =  new int[3,4];
+int[,] array = AddArray();
 
 FillArray(array);

@@ -4,11 +4,15 @@ public class Answer {
   public static double[, ] CreateRandomMatrix(int m, int n, int minLimitRandom, int maxLimitRandom) {
       // Введите свое решение ниже
       double[,] matrix = new double[m, n];
+      Random rand = new Random();
       for (int i = 0; i < matrix.GetLength(0); i++)
       {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = new Random().Next(minLimitRandom, maxLimitRandom);
+          // matrix[i, j] = new Random().NextDouble(minLimitRandom, maxLimitRandom);
+          // matrix[i, j] = Math.Round(rand.NextDouble() * (maxLimitRandom - minLimitRandom) + minLimitRandom, 1);
+          matrix[i, j] = Math.Round((rand.Next(minLimitRandom, maxLimitRandom) + (rand.NextDouble()* maxLimitRandom) - (rand.NextDouble()* minLimitRandom)) , 1);
+          
         }
       }
       return matrix;
@@ -22,7 +26,7 @@ public class Answer {
       {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            Console.Write(matrix[i, j] + " ");
+            Console.Write(matrix[i, j] + "\t");
         }
         Console.WriteLine();
       }
